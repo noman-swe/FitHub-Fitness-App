@@ -14,12 +14,32 @@ const Hero = () => {
             {/* contents */}
             <div className=' relative z-10 text-white text-center px-4 max-w-4xl'>
                 <div>
-                    <motion.h1 initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: 'easeInOut' }} className='text-5xl md:text-7xl font-black font-heading mb-6 leading-tighter'>Transform Your Body, {" "} <span className='text-primary'>Transform Your Life</span></motion.h1>
+                    <motion.h1
+                        initial={{ opacity: 0, y: 12 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.7, ease: 'easeInOut' }}
+                        className='text-5xl md:text-7xl font-black font-heading mb-6 leading-tighter'
+                    >
+                        Transform Your Body, {" "}
+                        <span className='text-primary'>Transform Your Life</span>
+                    </motion.h1>
 
-                    <motion.p initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.3 }} className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto">Join our fitness programs and achieve your goals with expert
-                        trainers and personalized plans.</motion.p>
+                    <motion.p
+                        initial={{ opacity: 0, y: 12 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.7, delay: 0.3 }}
+                        className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto"
+                    >
+                        Join our fitness programs and achieve your goals with expert
+                        trainers and personalized plans.
+                    </motion.p>
 
-                    <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.4 }} className='flex flex-col sm:flex-row gap-4 justify-center '>
+                    <motion.div
+                        initial={{ opacity: 0, y: 12 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.4 }}
+                        className='flex flex-col sm:flex-row gap-4 justify-center'
+                    >
                         <Button size={"lg"} className='bg-primary hover:bg-primary/90 text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8'>Start Free Trial</Button>
                         <Button size={"lg"} variant={"outline"} className='bg-transparent text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8'>View Plans</Button>
                     </motion.div>

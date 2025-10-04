@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { Button } from './ui/button'
 const Programs = () => {
     return (
-        <section className='py-20 bg-background'>
+        <section className='py-20 bg-foreground/4'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
                 <div className='text-center mb-16'>
                     <motion.h2
@@ -49,7 +49,7 @@ const Programs = () => {
                                         transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.3 }} className='text-muted-foreground mb-4 leading-relaxed'>{program?.description}</motion.p>
 
                                     <div>
-                                        <Button variant={"outline"} className='w-full transition-colors duration-300 group-hover:bg-primary group-hover:text-primary-foreground'>Learn more</Button>
+                                        <Button variant={"outline"} className='w-full transition-colors duration-300 group-hover:bg-primary dark:group-hover:bg-primary group-hover:text-primary-foreground'>Learn more</Button>
                                     </div>
                                 </CardContent>
                             </Card>
