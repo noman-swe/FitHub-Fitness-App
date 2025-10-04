@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <section className='h-screen relative flex items-center justify-center overflow-hidden pt-16'>
             <div className='absolute inset-0'>
-                <Image src={"/fitness-hero.jpeg"} alt="Fitness Hero" className='object-cover object-center' fill />
+                <Image src={"/gym-items.jpg"} alt="Fitness Hero" className='object-cover object-center' fill />
                 <div className='absolute inset-0 bg-black/55'> </div>
             </div>
 
